@@ -1,0 +1,32 @@
+{
+  "loader": {
+    "name": "java_plain",
+    "version": "1.0"
+  },
+  "license": "MIT",
+  "global": {
+    "version": "1.0.0",
+    "links": {
+    },
+    "contributors": [
+      {
+        "name": "MoseMister",
+        "description": "Lead Developer"
+      }
+    ],
+    "dependencies": [
+      {
+        "id": "spongeapi",
+        "version": "8.0.0"
+      }
+    ]
+  },
+  "plugins": [
+    {
+      "id": "creative_limit",
+      "name": "Creative Limit",
+      "entrypoint": "org.creative.limit.CreativeLimitPlugin",
+      "description": "Prevents items created by creative inventory from being used by none creative players"
+    }
+  ]
+}
